@@ -8,7 +8,7 @@ Rev.    : 1.0
 #include "transmission.h"
 #include "donneesMeteo.h"
 
-int identificateurDeTrame = 0;
+int identificateurDeTrame;
 
 void setup() 
 {
@@ -26,4 +26,3 @@ void loop()
   identificateurDeTrame++;
   delay(DELAIS);
 }
-///////////////////////////////////////////////////////////////             SN-EC;21;29,5;°C;50;%\r\n
